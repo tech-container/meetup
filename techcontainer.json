@@ -1,0 +1,30 @@
+{
+    "events" : {
+      "event1" : {
+        "company" : "Director, Pramati Technologies India, Chennai",
+        "date" : "6th March 2019 | 5:00 PM",
+        "descr" : "The pervasive collection and availability of data has resulted in an increased interest in the field of machine learning to leverage it. While many good courses are available, ML's mathematical lineage continues to place it outside the range of many working programmers. In this talk, we'll see how the core ideas can be understood relative to what is common knowledge in the programming world, so that programmers not exposed to the field can identify opportunities for applying ML, understand how problems are formulated, ask critical questions and otherwise engage constructively with the field. We'll conclude with some notes on emerging ideas and the road ahead. <br /><i>Prerequisites</i>:  Some knowledge of functional programming would help, though not strictly necessary.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Machine Learning as extreme TDD: An introduction for programmers.",
+        "photo" : "https://i.pinimg.com/originals/8f/31/2b/8f312b3eff2287bf4ef5dac264a8e818.jpg",
+        "profile_link" : "https://www.linkedin.com/in/srikumarks/",
+        "speaker" : "Dr. Srikumar Subramanian"
+      }
+    },
+    "past-events" : {
+      "event1" : {
+        "date" : "1st March 2019",
+        "descr" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus assumenda ipsum neque repellat beatae vel minima deleniti doloribus. Atque sapiente magnam at quam accusantium vero eius minus iste laudantium inventore.",
+        "name" : "CHE",
+        "photo" : "some url",
+        "speaker" : "Pattrick"
+      },
+      "event2" : {
+        "date" : "5th March 2019",
+        "descr" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus assumenda ipsum neque repellat beatae vel minima deleniti doloribus. Atque sapiente magnam at quam accusantium vero eius minus iste laudantium inventore.",
+        "name" : "GATE Transactions",
+        "photo" : "some url",
+        "speaker" : "Anand R"
+      }
+    }
+  }
