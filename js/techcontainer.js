@@ -34,12 +34,7 @@
 
 $(window).on('load', function(){
 //   var config = {
-//     apiKey: "AIzaSyBZyYFQn5iE5X2h_Pgddxe4WUSkCfzUdG0",
-//     authDomain: "techtainer-27401.firebaseapp.com",
-//     databaseURL: "https://techtainer-27401.firebaseio.com",
-//     projectId: "techtainer-27401",
-//     storageBucket: "techtainer-27401.appspot.com",
-//     messagingSenderId: "35378115146"
+//     
 //   };
 //   firebase.initializeApp(config);
 
