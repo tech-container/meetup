@@ -78,7 +78,7 @@ event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-
          event.innerHTML = `<div class="resume-content">
         <h3 class="mb-1 mt-1" style="color: #BD5D3D">`+f.name+`</h3>
 	<div class="mt-2 mb-2">
-      <a target="_blank" class="btn-block btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/259014080/">Participate Now</a>
+      <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/259014080/">Participate Now</a>
     
     </div>
         <div class="social-icons2 subheading mb-3"><a class="" href="#">
