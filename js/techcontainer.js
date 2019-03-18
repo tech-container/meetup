@@ -74,6 +74,7 @@ $(window).on('load', function(){
                 </a>`+f.speaker+ ` | ` + f.company +`
                 </div>
                 <p>`+f.descr+`</p>
+		<p>`+f.subDescr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 
                 <h4>Address</h4>
