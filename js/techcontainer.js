@@ -40,7 +40,7 @@ $(window).on('load', function(){
             event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
             event.innerHTML = `<div class="resume-content">
                 <h3 class="mb-1 mt-1" style="color: #BD5D3D">`+f.name+`</h3>
-                <div class="social-icons2 subheading mb-3"><a class="" href="#">
+                <div class="social-icons2 subheading mb-3"><a class="" href="`+f.profile_link+`">
                 <i class="fab fa-linkedin-in"></i>
                 </a>`+f.speaker+ ` | ` + f.company +`
                 </div>
@@ -69,7 +69,7 @@ $(window).on('load', function(){
             event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
             event.innerHTML = `<div class="resume-content">
                 <h3 class="mb-1 mt-1" style="color: #BD5D3D">`+f.name+`</h3>
-                <div class="social-icons2 subheading mb-3"><a class="" href="#">
+                <div class="social-icons2 subheading mb-3"><a class="" href="`+f.profile_link+`">
                 <i class="fab fa-linkedin-in"></i>
                 </a>`+f.speaker+ ` | ` + f.company +`
                 </div>
