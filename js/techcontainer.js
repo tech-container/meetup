@@ -54,7 +54,7 @@ $(window).on('load', function(){
                 <p>`+f.descr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 <div class="mt-2 mb-2">
-                <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/260692387/">Participate Now</a>
+                <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/262411308/">Participate Now</a>
                 </div>
                 <h4>Address</h4>
                 <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
@@ -70,7 +70,6 @@ $(window).on('load', function(){
             upcoming_events.appendChild(event);
          }
          else{
-           console.log("praveen");
           var event = document.createElement('div');
           event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
           event.innerHTML = `
@@ -84,7 +83,7 @@ $(window).on('load', function(){
                 <p>`+f.descr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 <div class="mt-2 mb-2">
-                  <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/260692387/">Participate Now</a>
+                  <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/262411308/">Participate Now</a>
                 </div>
                 <h4>Address</h4>
                 <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
@@ -92,7 +91,7 @@ $(window).on('load', function(){
                 <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
               </div>
               <div class="techcontainer-date text-md-right">
-              <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_event2_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+              <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
               </div>`;
           var upcoming_events = document.getElementById('eventsList');
           upcoming_events.appendChild(event);
@@ -104,30 +103,66 @@ $(window).on('load', function(){
     
 	$.getJSON('techcontainer.json', function(data) {
        $.each(data.pastEvents, function(i, f) {
-         console.log(typeof(i));
-	        var event = document.createElement('div');
-            event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
-            event.innerHTML = `<div class="resume-content">
-                <h3 class="mb-1 mt-1" style="color: #BD5D3D">`+f.name+`</h3>
-                <div class="social-icons2 subheading mb-3"><a target="_blank" class="" href="`+f.profile_link+`">
-                <i class="fab fa-linkedin-in"></i>
-                
-                </a>`+f.speaker1+ ` | ` + f.company +`
-                </div>
-                <p>`+f.descr+`</p>
-		            <p>`+f.subDescr+`</p>
-                <span class="text-dark">`+f.date+`</span><br><br>
-                
-                <h4>Address</h4>
-                <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
-                <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
-                <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
-                </div>
-                <div class="techcontainer-date text-md-right">
-                <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`.jpg" alt="Generic placeholder image" width="160" height="160">
-                </div>`;
-            var past_events = document.getElementById('pastEventsList');
-            past_events.appendChild(event);
+        if(f.num_speakers==="2"){
+          console.log("something");
+         var event = document.createElement('div');
+           event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
+           event.innerHTML = `<div class="resume-content">
+               <h3 class="mb-1 mt-1" style="color: #BD5D3D">`+f.name+`</h3>
+               <div class="social-icons2 subheading mb-1"><a class="" target="_blank" href="`+f.profile_link1+`">
+               <i class="fab fa-linkedin-in"></i>
+               </a>`+f.speaker1+`
+               </div>
+               <div class="social-icons2 subheading mb-3"><a class="" target="_blank" href="`+f.profile_link2+`">
+               <i class="fab fa-linkedin-in"></i>
+               </a>`+f.speaker2+`
+               </div>
+               
+               <p>`+f.descr+`</p>
+               <span class="text-dark">`+f.date+`</span><br><br>
+               <div class="mt-2 mb-2">
+               </div>
+               <h4>Address</h4>
+               <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
+               <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
+               <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
+               </div>
+               <div class="techcontainer-date text-md-right">
+               <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+               <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker2.jpg" alt="Generic placeholder image" width="160" height="160">
+               
+               </div>`;
+               var past_events = document.getElementById('pastEventsList');
+               past_events.appendChild(event);
+        }
+        else{
+         var event = document.createElement('div');
+         event.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
+         event.innerHTML = `
+             <div class="resume-content">
+               <h3 class="mb-1 mt-1" style="color: #BD5D3D">`+f.name+`</h3>
+               <div class="social-icons2 subheading mb-3">
+                 <a class="" target="_blank" href="`+f.profile_link1+`">
+                   <i class="fab fa-linkedin-in"></i>
+                 </a>`+f.speaker1+`
+               </div>
+               <p>`+f.descr+`</p>
+               <span class="text-dark">`+f.date+`</span><br><br>
+               <div class="mt-2 mb-2">
+              
+               </div>
+               <h4>Address</h4>
+               <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
+               <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
+               <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
+             </div>
+             <div class="techcontainer-date text-md-right">
+             <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+             </div>`;
+             var past_events = document.getElementById('pastEventsList');
+             past_events.appendChild(event);
+        }
+            
      })
    });
     
