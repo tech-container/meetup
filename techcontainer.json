@@ -1,27 +1,30 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "XVELA, Navis",
-        "date" : "8th May 2019 | 5:00 PM",
-        "descr" : "A conversation between imperative and functional programmer. Through this conversation we will try to change the base nature of programmers and make them think more functionally. Functional thinking can help in creating code that is close to business in contrast to code that is close to the system which imperative programming is about. This way, your code can bend with changes to business easily. Not only does functional thinking help in business friendly design but also helps in designing concurrent/asynchronous programs that can benefit from multiple cores. Functional programs are easy to reason about and test, they speak about WHAT to be done rather than HOW to be done.",
+        "company" : "Director, Pramati Technologies India, Chennai",
+        "date" : "6th March 2019 | 5:00 PM",
+        "descr" : "The pervasive collection and availability of data has resulted in an increased interest in the field of machine learning to leverage it. While many good courses are available, ML's mathematical lineage continues to place it outside the range of many working programmers. In this talk, we'll see how the core ideas can be understood relative to what is common knowledge in the programming world, so that programmers not exposed to the field can identify opportunities for applying ML, understand how problems are formulated, ask critical questions and otherwise engage constructively with the field. We'll conclude with some notes on emerging ideas and the road ahead.",
+        "subDescr": "Prerequisites:  Some knowledge of functional programming would help, though not strictly necessary.",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Thinking in terms of Functional Programming",
-        "profile_link1" : "https://www.linkedin.com/in/ganesan-dharmalingam-careers/",
-        "profile_link2":  "https://www.linkedin.com/in/vigneshsprofile/",
-        "num_speakers": "2",
-        "speaker1" : "Ganesan Dharamalingam | XVELA",
-        "speaker2": "Vignesh Sridharan | Navis"
-      },
-      "event2": {
-        "company1" : "XVELA",
-        "date" : "8th May 2019 | 5:45 PM",
-        "descr" : "A deep look into Monads from functional design perspective. Monads are the base design pattern that is followed in all of the statically typed functional languages to eliminate a broad set of common problems that programmers face. Understanding Mondas better, can give good insight on how most of functional languages work. In this talk we will try to understand Monads and the rules associated to it, by looking into existing monads as examples, so that we can create our own Monads to solve our business specific problems using this higher level abstraction technique. Creating our own Monads to our business problems can make better, readable and more reusable code.",
-        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Monads as design pattern",
-        "profile_link1" : "https://www.linkedin.com/in/praveenkumar-rajan-39121b73/",
+        "name" : "Machine Learning as extreme TDD: An introduction for programmers.",
+        "photo" : "https://i.pinimg.com/originals/8f/31/2b/8f312b3eff2287bf4ef5dac264a8e818.jpg",
+        "profile_link" : "https://www.linkedin.com/in/srikumarks/",
         "num_speakers": "1",
-        "speaker1" : "Praveenkumar Rajan"
+        "speaker1" : "Dr. Srikumar Subramanian"
+      },
+      "event2" : {
+        "company" : "Architect, Fintep, Chennai",
+        "date" : "3rd July 2019 | 5:45 PM",
+        "descr" : "In this session we will see What is Helm and Problems which Helm solves. Once we gone past the introduction, we can publish and deploy an ROR application using custom charts (terminology used for packages in Helm) which leverages the Redis chart from standard repo. We will also see how we can version, rollback, maintain deployments.",
+        "subDescr": "Finally we can discuss about the pros & cons of using Helm as package manager for Kubernetes.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Helm, Kubernetes Package Manager",
+        "photo" : "https://media.licdn.com/dms/image/C4D03AQH4hUc3JA_hjw/profile-displayphoto-shrink_800_800/0?e=1566432000&v=beta&t=kPzRjyL3BX0d_0qhBcuNeX2EeaMBVTwov7BjTiAF-eE",
+        "profile_link" : "https://www.linkedin.com/in/venkataraman-prasanna-61a73515/",
+        "num_speakers": "1",
+        "speaker1" : "Prasanna Venkataraman"
       }
+        
     },
     "pastEvents" : {
         "event1" : {
@@ -47,6 +50,28 @@
         "profile_link" : "https://www.linkedin.com/in/doraithodla/",
         "num_speakers": "1",
         "speaker1" : "Mr. Dorai Thodla"
+      },
+      "event3" : {
+        "company" : "XVELA, Navis",
+        "date" : "8th May 2019 | 5:00 PM",
+        "descr" : "A conversation between imperative and functional programmer. Through this conversation we will try to change the base nature of programmers and make them think more functionally. Functional thinking can help in creating code that is close to business in contrast to code that is close to the system which imperative programming is about. This way, your code can bend with changes to business easily. Not only does functional thinking help in business friendly design but also helps in designing concurrent/asynchronous programs that can benefit from multiple cores. Functional programs are easy to reason about and test, they speak about WHAT to be done rather than HOW to be done.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Thinking in terms of Functional Programming",
+        "profile_link1" : "https://www.linkedin.com/in/ganesan-dharmalingam-careers/",
+        "profile_link2":  "https://www.linkedin.com/in/vigneshsprofile/",
+        "num_speakers": "2",
+        "speaker1" : "Ganesan Dharamalingam | XVELA",
+        "speaker2": "Vignesh Sridharan | Navis"
+      },
+      "event4": {
+        "company1" : "XVELA",
+        "date" : "8th May 2019 | 5:45 PM",
+        "descr" : "A deep look into Monads from functional design perspective. Monads are the base design pattern that is followed in all of the statically typed functional languages to eliminate a broad set of common problems that programmers face. Understanding Mondas better, can give good insight on how most of functional languages work. In this talk we will try to understand Monads and the rules associated to it, by looking into existing monads as examples, so that we can create our own Monads to solve our business specific problems using this higher level abstraction technique. Creating our own Monads to our business problems can make better, readable and more reusable code.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Monads as design pattern",
+        "profile_link1" : "https://www.linkedin.com/in/praveenkumar-rajan-39121b73/",
+        "num_speakers": "1",
+        "speaker1" : "Praveenkumar Rajan"
       }
     }
   }
