@@ -5,7 +5,18 @@ body {
   color:black;
   margin: 0;
 }
+@keyframes slideUpOpacity {
+  to{
+      transform: translateY(0%);
+      opacity: 1;
+  }
+}
 
+
+.slide-up-opacity-animation {
+  animation: slideUpOpacity 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
 
 @media (min-width: 992px) {
   body {
