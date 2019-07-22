@@ -81,6 +81,7 @@ $(window).on('load', function(){
                   </a>`+f.speaker1+`
                 </div>
                 <p>`+f.descr+`</p>
+                <p>`+f.sudescr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 <div class="mt-2 mb-2">
                   <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/262411308/">Participate Now</a>

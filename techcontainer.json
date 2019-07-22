@@ -13,7 +13,6 @@
         "num_speakers": "1",
         "speaker1" : "Mr. Prasanna Venkataraman"
       }
-        
     },
     "pastEvents" : {
         "event1" : {
@@ -44,6 +43,7 @@
         "company" : "XVELA, Navis",
         "date" : "8th May 2019 | 5:00 PM",
         "descr" : "A conversation between imperative and functional programmer. Through this conversation we will try to change the base nature of programmers and make them think more functionally. Functional thinking can help in creating code that is close to business in contrast to code that is close to the system which imperative programming is about. This way, your code can bend with changes to business easily. Not only does functional thinking help in business friendly design but also helps in designing concurrent/asynchronous programs that can benefit from multiple cores. Functional programs are easy to reason about and test, they speak about WHAT to be done rather than HOW to be done.",
+        "subdescr": "",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
         "name" : "Thinking in terms of Functional Programming",
         "profile_link1" : "https://www.linkedin.com/in/ganesan-dharmalingam-careers/",
@@ -56,6 +56,7 @@
         "company1" : "XVELA",
         "date" : "8th May 2019 | 5:45 PM",
         "descr" : "A deep look into Monads from functional design perspective. Monads are the base design pattern that is followed in all of the statically typed functional languages to eliminate a broad set of common problems that programmers face. Understanding Mondas better, can give good insight on how most of functional languages work. In this talk we will try to understand Monads and the rules associated to it, by looking into existing monads as examples, so that we can create our own Monads to solve our business specific problems using this higher level abstraction technique. Creating our own Monads to our business problems can make better, readable and more reusable code.",
+        "subdescr":"",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
         "name" : "Monads as design pattern",
         "profile_link1" : "https://www.linkedin.com/in/praveenkumar-rajan-39121b73/",
