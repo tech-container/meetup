@@ -18,7 +18,7 @@ function animate(container, isChildrenAnimate=false, isOnTop=false){
     var parent = document.querySelector(container);
 
     var childrens = [];
-    console.log(parent);
+    // console.log(parent);
     for(var i=0;i<parent.childNodes.length;i++){
 
         if(parent.childNodes[i].dataset && parent.childNodes[i].dataset.animatable=="animatable"){
@@ -38,6 +38,7 @@ function animate(container, isChildrenAnimate=false, isOnTop=false){
                 childrens[i].style.transform = `translateY(${16 + i*4}px)`;
                 childrens[i].style.animationDelay = String(Number(i*100)) + "ms";
                 childrens[i].classList.add("slide-up-opacity-animation");
+                // console.log("asdasd");
             }
             if(childrens[i].classList.contains("slide-up-opacity-animation")){
                 animatedCount++;
@@ -56,8 +57,11 @@ function animate(container, isChildrenAnimate=false, isOnTop=false){
 }
 
 // animate(".banner", true, true);
-animate("#upcoming_events", true, true);
-animate("#past_events", true, false);
+animate("#eventsList", true, true);
+animate("#pastEventsList", true, false);
+// animate(".event-content", true, false);
+
+animate(".about-section", true, false);
 // animate(".watch-series-4-container", true, false);
 // animate(".ipad-container", true, false);
 // animate(".macbook-air-container", true, false);
@@ -65,15 +69,27 @@ animate("#past_events", true, false);
 // animate(".ipad-pro-container", true, false);
 // animate(".icard-container", true, false);
 // animate(".airpods-container", true, false);
+animate(".navbar", true, true);
 
-var footerColCounter = 0;
-document.querySelectorAll(".footer-nav-links").forEach(ele => {
+var socialIcon = 0;
+document.querySelectorAll(".social-icons").forEach(ele => {
     // console.log("asd", ele);
-    var footerColClass = `footer-col-${footerColCounter}`;
-    ele.classList.add(footerColClass);
-    animate("."+footerColClass, true, false);
+    var socialIconClass = `social-icon-${socialIcon}`;
+    ele.classList.add(socialIconClass);
+    animate("."+socialIconClass, true, false);
 
-    footerColCounter++;
+    socialIcon++;
 })
 
-animate()
+
+
+var navbarItemCounter = 0;
+document.querySelectorAll(".navv navbar-nav").forEach(ele => {
+    // console.log("asd", ele);
+    var navbarItem = `navbar-item-${navbarItemCounter}`;
+    ele.classList.add(navbarItem);
+    animate("."+navbarItem, true, false);
+
+    navbarItemCounter++;
+})
+
