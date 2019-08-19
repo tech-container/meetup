@@ -1,17 +1,16 @@
 {
     "upcomingEvents" : {
-     
       "event1" : {
-        "company" : "Architect, Fintep, Chennai",
-        "date" : "8th August 2019 | 5:00 PM",
-        "descr" : "As a software developer working in system for more than 10 hours, its mandatory to make the repetitive tasks and tasks which requires lot of efforts to be in a much simpler way.Being Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and consistent effort - Paul J Meyer",
-        "subDescr": "In this session we will see some of the command line tools which improves your productivity and also the places where you can find them.",
+        "company" : "Lead Engineer, XVELA, Navis, Chennai",
+        "date" : "5th September 2019 | 5:00 PM",
+        "descr" : "In this talk, we will go through the journey of Evolution of infrastructure from Physical servers to Virtualization to Containerization. Importance of docker and its resources. Next we will see the architecture of Kubernetes. As an enterprise application developer, what are the Kubernetes concepts important while developing, deploying a production ready application.",
+        "subDescr": "In this session we will deploy a web application in a local cluster setup also discuss on the different concepts involved in it (POD, Ingress, Services, Resources).",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Developer Productivity Tools",
-        "photo" : "https://media.licdn.com/dms/image/C4D03AQH4hUc3JA_hjw/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=b8NFwJbkgBLHxpC2jz5gIt5b8NfPyCuWsnGMt6xdSTA",
-        "profile_link1" : "https://www.linkedin.com/in/venkataraman-prasanna-61a73515/",
+        "name" : "Kubernetes for Application Developers",
+        "photo" : "https://avatars0.githubusercontent.com/u/12714577?s=460&v=4",
+        "profile_link1" : "https://www.linkedin.com/in/paraniraja/",
         "num_speakers": "1",
-        "speaker1" : "Mr. Prasanna Venkataraman"
+        "speaker1" : "Mr. Parani Raja Rajasekaran"
       }
     },
     "pastEvents" : {
@@ -83,6 +82,18 @@
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
         "name" : "Helm, Kubernetes Package Manager",
         "photo" : "https://media.licdn.com/dms/image/C4D03AQH4hUc3JA_hjw/profile-displayphoto-shrink_800_800/0?e=1566432000&v=beta&t=kPzRjyL3BX0d_0qhBcuNeX2EeaMBVTwov7BjTiAF-eE",
+        "profile_link1" : "https://www.linkedin.com/in/venkataraman-prasanna-61a73515/",
+        "num_speakers": "1",
+        "speaker1" : "Mr. Prasanna Venkataraman"
+      },
+      "event7" : {
+        "company" : "Architect, Fintep, Chennai",
+        "date" : "8th August 2019 | 5:00 PM",
+        "descr" : "As a software developer working in system for more than 10 hours, its mandatory to make the repetitive tasks and tasks which requires lot of efforts to be in a much simpler way.Being Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and consistent effort - Paul J Meyer",
+        "subDescr": "In this session we will see some of the command line tools which improves your productivity and also the places where you can find them.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Developer Productivity Tools",
+        "photo" : "https://media.licdn.com/dms/image/C4D03AQH4hUc3JA_hjw/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=b8NFwJbkgBLHxpC2jz5gIt5b8NfPyCuWsnGMt6xdSTA",
         "profile_link1" : "https://www.linkedin.com/in/venkataraman-prasanna-61a73515/",
         "num_speakers": "1",
         "speaker1" : "Mr. Prasanna Venkataraman"
