@@ -1,16 +1,16 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "Lead Engineer, XVELA, Navis, Chennai",
-        "date" : "5th September 2019 | 5:00 PM",
-        "descr" : "In this talk, we will go through the journey of Evolution of infrastructure from Physical servers to Virtualization to Containerization. Importance of docker and its resources. Next we will see the architecture of Kubernetes. As an enterprise application developer, what are the Kubernetes concepts important while developing, deploying a production ready application.",
-        "subDescr": "In this session we will deploy a web application in a local cluster setup also discuss on the different concepts involved in it (POD, Ingress, Services, Resources).",
+        "company" : "Programmer, ThoughtWorks, Chennai",
+        "date" : "3rd October 2019 | 5:00 PM",
+        "descr" : "After 20 years of JavaScript, modern web browsers started to understand a new binary format called WebAssembly. WebAssembly is known for its amazing performance, compact file size and portability.",
+        "subDescr": "In this session, we will compare the execution model of JavaScript and WebAssembly. We also discuss about the techniques that helps WebAssembly to offer an incredible performance.",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Kubernetes for Application Developers",
-        "photo" : "https://avatars0.githubusercontent.com/u/12714577?s=460&v=4",
-        "profile_link1" : "https://www.linkedin.com/in/paraniraja/",
+        "name" : "Future of Web development and JavaScript",
+        "photo" : "https://media.licdn.com/dms/image/C5103AQFGbptD2aLISw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=MzrTXHBEt7VZQmBegae19odPl4NBhmGFAJyVZukJO2g",
+        "profile_link1" : "https://www.linkedin.com/in/jawahars16/",
         "num_speakers": "1",
-        "speaker1" : "Mr. Parani Raja Rajasekaran"
+        "speaker1" : "Mr. Jawahar"
       }
     },
     "pastEvents" : {
@@ -97,6 +97,18 @@
         "profile_link1" : "https://www.linkedin.com/in/venkataraman-prasanna-61a73515/",
         "num_speakers": "1",
         "speaker1" : "Mr. Prasanna Venkataraman"
+      },
+      "event8" : {
+        "company" : "Lead Engineer, XVELA, Navis, Chennai",
+        "date" : "5th September 2019 | 5:00 PM",
+        "descr" : "In this talk, we will go through the journey of Evolution of infrastructure from Physical servers to Virtualization to Containerization. Importance of docker and its resources. Next we will see the architecture of Kubernetes. As an enterprise application developer, what are the Kubernetes concepts important while developing, deploying a production ready application.",
+        "subDescr": "In this session we will deploy a web application in a local cluster setup also discuss on the different concepts involved in it (POD, Ingress, Services, Resources).",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Kubernetes for Application Developers",
+        "photo" : "https://avatars0.githubusercontent.com/u/12714577?s=460&v=4",
+        "profile_link1" : "https://www.linkedin.com/in/paraniraja/",
+        "num_speakers": "1",
+        "speaker1" : "Mr. Parani Raja Rajasekaran"
       }
     }
   }
