@@ -1,16 +1,16 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "ThoughtWorks, Chennai",
-        "date" : "3rd October 2019 | 5:00 PM",
-        "descr" : "After 20 years of JavaScript, modern web browsers started to understand a new binary format called WebAssembly. WebAssembly is known for its amazing performance, compact file size and portability.",
-        "subDescr": "In this session, we will compare the execution model of JavaScript and WebAssembly. We also discuss about the techniques that helps WebAssembly to offer an incredible performance.",
+        "company" : "GlobalEnglish, Chennai",
+        "date" : "7th November 2019 | 5:00 PM",
+        "descr" : "GraphQL, as an alternative to REST API, presents many advantages especially if you work with rapidly-changing data. So, in this session after a brief overview of GraphQL, we'll dive into it by starting with Schema Building and data types of GraphQL. ",
+        "subDescr": "After building the schema, we'll hook up with the data source and look into data resolvers, write fetch data queries in GraphQL and update data with mutations. Further, we'll also cover GraphQL client-side integration.",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Web Assembly: Future of Web development and JavaScript",
-        "photo" : "https://media.licdn.com/dms/image/C5103AQFGbptD2aLISw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=MzrTXHBEt7VZQmBegae19odPl4NBhmGFAJyVZukJO2g",
-        "profile_link1" : "https://www.linkedin.com/in/jawahars16/",
+        "name" : "Introduction to GraphQL",
+        "photo" : "https://media.licdn.com/dms/image/C5103AQEqR_LFxopmpg/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=1jCAhxM8RGBEIQkLjxzwIItcIsn41oNGHMOmt-EgqfA",
+        "profile_link1" : "https://www.linkedin.com/in/balamathankumar-dhanushkodi/",
         "num_speakers": "1",
-        "speaker1" : "Mr. Jawahar, Programmer, ThoughtWorks, Chennai"
+        "speaker1" : "Balamathankumar Dhanushkodi, Senior Engineer at GlobalEnglish"
       }
     },
     "pastEvents" : {
@@ -109,6 +109,18 @@
         "profile_link1" : "https://www.linkedin.com/in/paraniraja/",
         "num_speakers": "1",
         "speaker1" : "Mr. Parani Raja Rajasekaran"
+      },
+      "event9" : {
+        "company" : "ThoughtWorks, Chennai",
+        "date" : "3rd October 2019 | 5:00 PM",
+        "descr" : "After 20 years of JavaScript, modern web browsers started to understand a new binary format called WebAssembly. WebAssembly is known for its amazing performance, compact file size and portability.",
+        "subDescr": "In this session, we will compare the execution model of JavaScript and WebAssembly. We also discuss about the techniques that helps WebAssembly to offer an incredible performance.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Web Assembly: Future of Web development and JavaScript",
+        "photo" : "https://media.licdn.com/dms/image/C5103AQFGbptD2aLISw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=MzrTXHBEt7VZQmBegae19odPl4NBhmGFAJyVZukJO2g",
+        "profile_link1" : "https://www.linkedin.com/in/jawahars16/",
+        "num_speakers": "1",
+        "speaker1" : "Mr. Jawahar, Programmer, ThoughtWorks, Chennai"
       }
     }
   }
