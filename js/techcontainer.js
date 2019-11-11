@@ -85,7 +85,7 @@ $(window).on('load', function(){
                 <p>`+f.subDescr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 <div class="mt-2 mb-2">
-                  <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/265832025/">Participate Now</a>
+                  <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/266309420/">Participate Now</a>
                 </div>
                 <h4>Address</h4>
                 <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
