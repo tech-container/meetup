@@ -1,16 +1,16 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "GlobalEnglish, Chennai",
-        "date" : "7th November 2019 | 5:00 PM",
-        "descr" : "GraphQL, as an alternative to REST API, presents many advantages especially if you work with rapidly-changing data. So, in this session after a brief overview of GraphQL, we'll dive into it by starting with Schema Building and data types of GraphQL. ",
-        "subDescr": "After building the schema, we'll hook up with the data source and look into data resolvers, write fetch data queries in GraphQL and update data with mutations. Further, we'll also cover GraphQL client-side integration.",
+        "company" : "Associate Consultant, Saama",
+        "date" : "5th December 2019 | 5:00 PM",
+        "descr" : "With social media and chat platforms becoming an inadmissible part of our lives, chatbots that are capable of imitating human conversation are in demand. So in this session, we'll try to cover:",
+        "subDescr": "1. Chatbots present, past and future. 2. Architecture of Chatbots. 3. Design practices of building a Chatbot. 4. how to build a Chatbot. 5. Limitations of a Chatbot. 6. Machine learning Behind Chatbots",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Introduction to GraphQL",
-        "photo" : "https://media.licdn.com/dms/image/C5103AQEqR_LFxopmpg/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=1jCAhxM8RGBEIQkLjxzwIItcIsn41oNGHMOmt-EgqfA",
-        "profile_link1" : "https://www.linkedin.com/in/balamathankumar-dhanushkodi/",
+        "name" : "A walk-through to the world of Chatbots",
+        "photo" : "https://media.licdn.com/dms/image/C4E03AQElP4PtV97DIw/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=PsFQTPqcqg-grggOaCNQK34elRwF7ifbsgIvIiBO1tI",
+        "profile_link1" : "https://www.linkedin.com/in/bhavanir/",
         "num_speakers": "1",
-        "speaker1" : "Balamathankumar Dhanushkodi, Senior Engineer at GlobalEnglish"
+        "speaker1" : "Bhavani Ravi"
       }
     },
     "pastEvents" : {
@@ -121,6 +121,18 @@
         "profile_link1" : "https://www.linkedin.com/in/jawahars16/",
         "num_speakers": "1",
         "speaker1" : "Mr. Jawahar, Programmer, ThoughtWorks, Chennai"
+      },
+      "event10" : {
+        "company" : "GlobalEnglish, Chennai",
+        "date" : "7th November 2019 | 5:00 PM",
+        "descr" : "GraphQL, as an alternative to REST API, presents many advantages especially if you work with rapidly-changing data. So, in this session after a brief overview of GraphQL, we'll dive into it by starting with Schema Building and data types of GraphQL. ",
+        "subDescr": "After building the schema, we'll hook up with the data source and look into data resolvers, write fetch data queries in GraphQL and update data with mutations. Further, we'll also cover GraphQL client-side integration.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Introduction to GraphQL",
+        "photo" : "https://media.licdn.com/dms/image/C5103AQEqR_LFxopmpg/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=1jCAhxM8RGBEIQkLjxzwIItcIsn41oNGHMOmt-EgqfA",
+        "profile_link1" : "https://www.linkedin.com/in/balamathankumar-dhanushkodi/",
+        "num_speakers": "1",
+        "speaker1" : "Balamathankumar Dhanushkodi, Senior Engineer at GlobalEnglish"
       }
     }
   }
