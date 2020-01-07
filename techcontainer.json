@@ -1,16 +1,16 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "Associate Consultant, Saama",
-        "date" : "5th December 2019 | 5:00 PM",
-        "descr" : "With social media and chat platforms becoming an inadmissible part of our lives, chatbots that are capable of imitating human conversation are in demand. So in this session, we'll try to cover:",
-        "subDescr": "Chatbots present, past and future. | Architecture of Chatbots. | Design practices of building a Chatbot. | How to build a Chatbot. | Limitations of a Chatbot. | Machine learning behind Chatbots.",
+        "company" : "Research Engineer, Saama",
+        "date" : "9th January 2020 | 5:00 PM",
+        "descr" : "With the overwhelming amount of data that we deal with every day, python helps with automating processes and also for making sense of the data through data science. One such implementation of Python is CPython. To learn more about it, join us while we cover the below-mentioned topics:",
+        "subDescr": "How the code is organised. | The CPython interpreter loop. | What are pyObjects and how do they work.",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "A walk-through to the world of Chatbots",
-        "photo" : "https://media.licdn.com/dms/image/C4E03AQElP4PtV97DIw/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=PsFQTPqcqg-grggOaCNQK34elRwF7ifbsgIvIiBO1tI",
-        "profile_link1" : "https://www.linkedin.com/in/bhavanir/",
+        "name" : "A Walkthrough - CPython",
+        "photo" : "https://media.licdn.com/dms/image/C4E03AQFTodg13JOfzw/profile-displayphoto-shrink_800_800/0?e=1583971200&v=beta&t=b0Px2gXV9n7JRsS2u0LMCfXke3cCbLvaFw7qH_RG0eE",
+        "profile_link1" : "https://www.linkedin.com/in/sadhana-srinivasan/",
         "num_speakers": "1",
-        "speaker1" : "Bhavani Ravi"
+        "speaker1" : "Sadhana Srinivasan"
       }
     },
     "pastEvents" : {
@@ -133,6 +133,18 @@
         "profile_link1" : "https://www.linkedin.com/in/balamathankumar-dhanushkodi/",
         "num_speakers": "1",
         "speaker1" : "Balamathankumar Dhanushkodi, Senior Engineer at GlobalEnglish"
+      },
+      "event11" : {
+        "company" : "Associate Consultant, Saama",
+        "date" : "5th December 2019 | 5:00 PM",
+        "descr" : "With social media and chat platforms becoming an inadmissible part of our lives, chatbots that are capable of imitating human conversation are in demand. So in this session, we'll try to cover:",
+        "subDescr": "Chatbots present, past and future. | Architecture of Chatbots. | Design practices of building a Chatbot. | How to build a Chatbot. | Limitations of a Chatbot. | Machine learning behind Chatbots.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "A walk-through to the world of Chatbots",
+        "photo" : "https://media.licdn.com/dms/image/C4E03AQElP4PtV97DIw/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=PsFQTPqcqg-grggOaCNQK34elRwF7ifbsgIvIiBO1tI",
+        "profile_link1" : "https://www.linkedin.com/in/bhavanir/",
+        "num_speakers": "1",
+        "speaker1" : "Bhavani Ravi"
       }
     }
   }
