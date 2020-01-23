@@ -55,18 +55,14 @@ $(window).on('load', function(){
                 <p>`+f.subDescr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 <div class="mt-2 mb-2">
-                <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/267574946/  ">Participate Now</a>
+                <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/268108927/">Participate Now</a>
                 </div>
                 <h4>Address</h4>
                 <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
                 <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
                 <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
                 </div>
-                <div class="techcontainer-date text-md-right">
-                <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
-                <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker2.jpg" alt="Generic placeholder image" width="160" height="160">
-                
-                </div>`;
+                `;
             var upcoming_events = document.getElementById('eventsList');
             upcoming_events.appendChild(event);
          }
@@ -85,7 +81,7 @@ $(window).on('load', function(){
                 <p>`+f.subDescr+`</p>
                 <span class="text-dark">`+f.date+`</span><br><br>
                 <div class="mt-2 mb-2">
-                  <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/267574946/  ">Participate Now</a>
+                  <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/268108927/">Participate Now</a>
                 </div>
                 <h4>Address</h4>
                 <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
