@@ -1,17 +1,15 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "Paypal | Adecco India",
-        "date" : "6th February 2020 | 5:00 PM",
-        "descr" : "In collaboration with MobiTalk Chennai Mobile Developers Meetup, we've decided to have a session on Mobile Security.",
-        "subDescr": "With the growth of big data technology, there's been a huge focus on security. Cybersecurity standards were founded in an attempt to protect the data and connections of software users. Join us while we discuss the Mobile Security Standards.",
+        "company" : "Syncfusion",
+        "date" : "5th March 2020 | 5:00 PM",
+        "subDescr" : "",
+        "descr": "• Rise & Fall of Big Data hype. Adoption from the year 2012 till now. • The necessity of currently used frameworks like Apache Spark, Apache Kafka. • How the cloud data warehouse services (Redshift, Synapse Analytics, Big Query, Snowflake) are considered for Big Data use cases?. • Can Big Data and Data warehouse be glued together by 'Azure Synapse Analytics'?. • Deploy a Machine Learning model in 10 minutes using ML.Net.",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Mobile Security Standards for the new decade.",
-        "profile_link1" : "https://www.linkedin.com/in/saravansekar/",
-        "profile_link2" : "https://www.linkedin.com/in/saravansekar/",
-        "num_speakers": "2",
-        "speaker1" : "Saravan Sekar Thillai, Architect (Android), Adecco India Pvt Ltd",
-        "speaker2" : "Balachander Mahalingam, Software Engineer (iOS), PayPal Chennai"
+        "name" : "Is Big Data hyped? Walk-through ecosystems like Spark, Kafka etc.",
+        "profile_link1" : "https://www.linkedin.com/in/dinesh-kumar-prabakaran-b95a6656/",
+        "num_speakers": "1",
+        "speaker1" : "Dinesh Kumar Prabakaran, Growth Hacker for Bold BI at Syncfusion",
       }
     },
     "pastEvents" : {
@@ -158,6 +156,19 @@
         "profile_link1" : "https://www.linkedin.com/in/sadhana-srinivasan/",
         "num_speakers": "1",
         "speaker1" : "Sadhana Srinivasan"
+      },
+      "event13" : {
+        "company" : "Paypal | Adecco India",
+        "date" : "6th February 2020 | 5:00 PM",
+        "descr" : "In collaboration with MobiTalk Chennai Mobile Developers Meetup, we've decided to have a session on Mobile Security.",
+        "subDescr": "With the growth of big data technology, there's been a huge focus on security. Cybersecurity standards were founded in an attempt to protect the data and connections of software users. Join us while we discuss the Mobile Security Standards.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Mobile Security Standards for the new decade.",
+        "profile_link1" : "https://www.linkedin.com/in/saravansekar/",
+        "profile_link2" : "https://www.linkedin.com/in/saravansekar/",
+        "num_speakers": "2",
+        "speaker1" : "Saravan Sekar Thillai, Architect (Android), Adecco India Pvt Ltd",
+        "speaker2" : "Balachander Mahalingam, Software Engineer (iOS), PayPal Chennai"
       }
     }
   }
