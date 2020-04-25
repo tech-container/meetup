@@ -1,15 +1,15 @@
 {
     "upcomingEvents" : {
       "event1" : {
-        "company" : "Syncfusion",
-        "date" : "5th March 2020 | 5:00 PM",
-        "subDescr" : "",
-        "descr": "• Rise & Fall of Big Data hype. Adoption from the year 2012 till now. • The necessity of currently used frameworks like Apache Spark, Apache Kafka. • How the cloud data warehouse services (Redshift, Synapse Analytics, Big Query, Snowflake) are considered for Big Data use cases?. • Can Big Data and Data warehouse be glued together by 'Azure Synapse Analytics'?. • Deploy a Machine Learning model in 10 minutes using ML.Net.",
+        "company" : "VIT Vellore",
+        "date" : "7th May 2020 | 5:00 PM",
+        "subDescr" : "Community search algorithms are very efficient in community discovery and fixing nodes to overlapping communities in a graph network. We will also briefly touch upon Aarogya Setu app, and compare its models with Graph Network models.",
+        "descr": "The COVID-19 pandemic has changed all of our lives drastically and we are living in unprecedented times. We'll use this meetup to understand the various aspects of community discovery algorithms and how they can be applied to COVID-19 spread pattern analysis. This meetup will be hosted online to ensure that social distancing guidelines are practised.",
         "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
-        "name" : "Is Big Data hyped? Walk-through ecosystems like Spark, Kafka etc.",
-        "profile_link1" : "https://www.linkedin.com/in/dinesh-kumar-prabakaran-b95a6656/",
+        "name" : "AI & ML Behind - COVID-19 Spread Pattern Discovery",
+        "profile_link1" : "https://www.linkedin.com/in/thendral-puyalnithi-1b88bb57/",
         "num_speakers": "1",
-        "speaker1" : "Dinesh Kumar Prabakaran, Growth Hacker for Bold BI at Syncfusion",
+        "speaker1" : "Thendral Puyalnithi | Assistant Professor Senior | VIT Vellore"
       }
     },
     "pastEvents" : {
@@ -169,6 +169,17 @@
         "num_speakers": "2",
         "speaker1" : "Saravan Sekar Thillai, Architect (Android), Adecco India Pvt Ltd",
         "speaker2" : "Balachander Mahalingam, Software Engineer (iOS), PayPal Chennai"
+      },
+      "event14": {
+        "company" : "Syncfusion",
+        "date" : "5th March 2020 | 5:00 PM",
+        "subDescr" : "",
+        "descr": "• Rise & Fall of Big Data hype. Adoption from the year 2012 till now. • The necessity of currently used frameworks like Apache Spark, Apache Kafka. • How the cloud data warehouse services (Redshift, Synapse Analytics, Big Query, Snowflake) are considered for Big Data use cases?. • Can Big Data and Data warehouse be glued together by 'Azure Synapse Analytics'?. • Deploy a Machine Learning model in 10 minutes using ML.Net.",
+        "location" : "NAVIS, CHENNAI 9TH FLOOR, ZENITH PHASE III, ASCENDAS IT PARK, TARAMANI, CSIR ROAD, CHENNAI",
+        "name" : "Is Big Data hyped? Walk-through ecosystems like Spark, Kafka etc.",
+        "profile_link1" : "https://www.linkedin.com/in/dinesh-kumar-prabakaran-b95a6656/",
+        "num_speakers": "1",
+        "speaker1" : "Dinesh Kumar Prabakaran, Growth Hacker for Bold BI at Syncfusion"
       }
     }
   }
