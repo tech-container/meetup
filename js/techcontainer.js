@@ -62,6 +62,10 @@ $(window).on('load', function(){
                 <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
                 <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
                 </div>
+                <div class="techcontainer-date text-md-right">
+                <img onerror="this.style.visibility='hidden'" class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+                <img onerror="this.style.visibility='hidden'" class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker2.jpg" alt="Generic placeholder image" width="160" height="160">
+                </div>
                 `;
             var upcoming_events = document.getElementById('eventsList');
             upcoming_events.appendChild(event);
@@ -89,7 +93,7 @@ $(window).on('load', function(){
                 <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
               </div>
               <div class="techcontainer-date text-md-right">
-              <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+              <img onerror="this.style.visibility='hidden'" class="rounded-circle m-3" style="border: 3px solid grey;" src="img/upcoming_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
               </div>`;
           var upcoming_events = document.getElementById('eventsList');
           upcoming_events.appendChild(event);
@@ -127,8 +131,8 @@ $(window).on('load', function(){
                <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
                </div>
                <div data-animatable="animatable" class="techcontainer-date text-md-right">
-               <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
-               <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker2.jpg" alt="Generic placeholder image" width="160" height="160">
+               <img onerror="this.style.visibility='hidden'" class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+               <img onerror="this.style.visibility='hidden'" class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker2.jpg" alt="Generic placeholder image" width="160" height="160">
                
                </div>`;
                var past_events = document.getElementById('pastEventsList');
@@ -157,7 +161,7 @@ $(window).on('load', function(){
                <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
              </div>
              <div data-animatable="animatable" class="techcontainer-date text-md-right">
-             <img class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
+             <img onerror="this.style.visibility='hidden'" class="rounded-circle m-3" style="border: 3px solid grey;" src="img/past_`+i+`_speaker1.jpg" alt="Generic placeholder image" width="160" height="160">
              </div>`;
              var past_events = document.getElementById('pastEventsList');
              past_events.appendChild(event);
