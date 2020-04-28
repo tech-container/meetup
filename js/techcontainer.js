@@ -57,9 +57,6 @@ $(window).on('load', function(){
                 <div class="mt-2 mb-2">
                 <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/270214862/">Participate Now</a>
                 </div>
-                <h4>Address</h4>
-                <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
-                <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
                 <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
                 </div>
                 <div class="techcontainer-date text-md-right">
@@ -87,9 +84,6 @@ $(window).on('load', function(){
                 <div class="mt-2 mb-2">
                   <a target="_blank" class="btn btn-success" href="https://www.meetup.com/tech-container-chennai/events/270214862/">Participate Now</a>
                 </div>
-                <h4>Address</h4>
-                <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
-                <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
                 <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
               </div>
               <div class="techcontainer-date text-md-right">
@@ -156,8 +150,8 @@ $(window).on('load', function(){
               
                </div>
                <h4>Address</h4>
-               <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
-               <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
+                <p style="font-weight: bold" class="lead mb-1">Navis, Chennai</p>
+                <p style="font-weight: bold" class="lead mb-5">9th floor, Zenith Phase III, Ascendas IT Park, Taramani, CSIR Road, Chennai</p>
                <hr class="bg-secondary d-none d-lg-block mb-0 ml-0">
              </div>
              <div data-animatable="animatable" class="techcontainer-date text-md-right">
